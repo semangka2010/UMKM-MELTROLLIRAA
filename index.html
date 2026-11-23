@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Melt-Roll - Nikmati kelembutan dan kelezatan setiap gigitan.">
+    <title>Melt-Roll | Sweetness in Every Roll</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="#home" class="brand">
+                <img src="assets/logo.jpg" alt="Logo Melt-Roll">
+                <span>Melt-Roll</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">
+                ☰
+            </button>
+
+            <nav id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Our Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#review">Review</a>
+                <a href="#contact" class="nav-order">Order Now ↗</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <span class="eyebrow">✦ SWEETNESS IN EVERY ROLL ✦</span>
+
+            <h1>
+                A Little Bite,<br>
+                <span>A Lot of Happiness.</span>
+            </h1>
+
+            <p>
+                Hadirkan kebahagiaan kecil dalam setiap gigitan.
+                Nikmati kelembutan Melt-Roll dengan berbagai pilihan
+                rasa yang siap menemani harimu.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-primary">Explore Menu ↗</a>
+                <a href="#about" class="btn-secondary">Discover More</a>
+            </div>
+
+            <div class="hero-note">
+                <span>♡</span> Made with love, served with happiness.
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/produk7.jpg" alt="Melt-Roll Special Banner">
+            <div class="floating-label">
+                <span>Our Special</span>
+                <strong>Only Rp10.000</strong>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+        <div>
+            MELT-ROLL ✦ SWEET MOMENTS ✦ MADE WITH LOVE ✦
+            MELT-ROLL ✦ SWEET MOMENTS ✦ MADE WITH LOVE ✦
+        </div>
+    </div>
+
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+
+        <div class="about-image">
+            <img src="assets/produk4.jpg" alt="Tentang Melt-Roll">
+            <div class="about-sticker">♡<br>Sweet<br>Moments</div>
+        </div>
+
+        <div class="about-content">
+            <span class="eyebrow">GET TO KNOW US</span>
+
+            <h2>
+                A Sweet Story<br>
+                <span>Behind Every Roll.</span>
+            </h2>
+
+            <p>
+                Melt-Roll merupakan produk makanan yang hadir
+                untuk memberikan pengalaman rasa manis dan
+                menyenangkan di setiap kesempatan.
+            </p>
+
+            <p>
+                Dengan pilihan rasa Matcha, Coklat, dan Taro,
+                Melt-Roll siap menjadi teman santai dan
+                pelengkap hari yang lebih menyenangkan.
+            </p>
+
+            <a href="#menu" class="text-link">
+                Discover Our Menu →
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- MENU -->
+    <section class="menu-section section" id="menu">
+
+        <div class="section-heading">
+            <span class="eyebrow">MADE FOR YOUR HAPPINESS</span>
+            <h2>Our Sweet <span>Selection.</span></h2>
+            <p>Pilihan rasa spesial yang siap menemani harimu.</p>
+        </div>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="assets/produk1.jpg" alt="Melt-Roll Matcha">
+                    <span class="product-tag">01</span>
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">OUR FLAVOUR</span>
+                    <h3>Matcha Melt-Roll</h3>
+                    <p>Kenikmatan rasa matcha dalam setiap gigitan.</p>
+
+                    <div class="product-bottom">
+                        <strong>Rp10.000</strong>
+                        <button onclick="pilihProduk('Matcha')" aria-label="Pesan Matcha">↗</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="assets/produk2.jpg" alt="Melt-Roll Coklat">
+                    <span class="product-tag">02</span>
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">OUR FLAVOUR</span>
+                    <h3>Chocolate Melt-Roll</h3>
+                    <p>Rasa coklat yang manis dan menggugah selera.</p>
+
+                    <div class="product-bottom">
+                        <strong>Rp10.000</strong>
+                        <button onclick="pilihProduk('Coklat')" aria-label="Pesan Coklat">↗</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="assets/produk3.jpg" alt="Melt-Roll Taro">
+                    <span class="product-tag">03</span>
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">OUR FLAVOUR</span>
+                    <h3>Taro Melt-Roll</h3>
+                    <p>Perpaduan rasa taro yang unik dan nikmat.</p>
+
+                    <div class="product-bottom">
+                        <strong>Rp10.000</strong>
+                        <button onclick="pilihProduk('Taro')" aria-label="Pesan Taro">↗</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ORDER -->
+    <section class="order-section section" id="order">
+
+        <div class="order-wrapper">
+
+            <div class="order-description">
+                <span class="eyebrow">LET'S MAKE YOUR DAY SWEETER</span>
+
+                <h2>
+                    Your Sweet<br>
+                    <span>Moment Starts Here.</span>
+                </h2>
+
+                <p>
+                    Sudah menemukan rasa favoritmu?
+                    Yuk, pesan Melt-Roll sekarang!
+                </p>
+
+                <div class="order-benefit">
+                    <span>♡</span>
+                    <div>
+                        <strong>Simple Ordering</strong>
+                        <small>Pesan dengan mudah melalui WhatsApp.</small>
+                    </div>
+                </div>
+
+                <div class="order-benefit">
+                    <span>✦</span>
+                    <div>
+                        <strong>Affordable Price</strong>
+                        <small>Nikmati setiap rasa hanya Rp10.000.</small>
+                    </div>
+                </div>
+            </div>
+
+
+            <form class="order-form" id="orderForm">
+
+                <h3>Order Your Melt-Roll</h3>
+                <p class="form-subtitle">Isi detail pesananmu di bawah ini.</p>
+
+                <label for="customerName">Nama Pemesan</label>
+                <input
+                    type="text"
+                    id="customerName"
+                    placeholder="Masukkan nama kamu"
+                    required
+                >
+
+                <label for="orderProduct">Pilih Varian</label>
+                <select id="orderProduct" required>
+                    <option value="">Pilih rasa favoritmu</option>
+                    <option value="Matcha">Matcha</option>
+                    <option value="Coklat">Coklat</option>
+                    <option value="Taro">Taro</option>
+                </select>
+
+                <label for="quantity">Jumlah Pesanan</label>
+                <input
+                    type="number"
+                    id="quantity"
+                    min="1"
+                    value="1"
+                    required
+                >
+
+                <label for="note">Catatan (Opsional)</label>
+                <textarea
+                    id="note"
+                    placeholder="Tambahkan catatan pesanan..."
+                    rows="3"
+                ></textarea>
+
+                <div class="total-box">
+                    <span>Total Pembayaran</span>
+                    <strong id="totalPrice">Rp10.000</strong>
+                </div>
+
+                <button type="submit" class="btn-primary order-submit">
+                    Pesan Melalui WhatsApp ↗
+                </button>
+
+                <small class="form-note">
+                    Pesanan akan diteruskan ke WhatsApp Melt-Roll.
+                </small>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+    <section class="gallery-section section" id="gallery">
+
+        <div class="section-heading">
+            <span class="eyebrow">LITTLE MOMENTS OF HAPPINESS</span>
+            <h2>Our Little <span>Gallery.</span></h2>
+            <p>Potongan cerita manis bersama Melt-Roll.</p>
+        </div>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item gallery-large">
+                <img src="assets/produk5.jpg" alt="Galeri Melt-Roll">
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/produk6.jpg" alt="Galeri produk Melt-Roll">
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/produk4.jpg" alt="Melt-Roll">
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/produk8.jpg" alt="Customer Melt-Roll">
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/produk9.jpg" alt="Customer Melt-Roll">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- REVIEW -->
+    <section class="review-section section" id="review">
+
+        <div class="section-heading">
+            <span class="eyebrow">YOUR WORDS MATTER</span>
+            <h2>Sweet Words <span>From You.</span></h2>
+            <p>Bagikan pengalamanmu setelah menikmati Melt-Roll.</p>
+        </div>
+
+        <div class="review-wrapper">
+
+            <form id="reviewForm" class="review-form">
+
+                <h3>Write Your Review ♡</h3>
+
+                <label for="reviewName">Nama</label>
+                <input
+                    type="text"
+                    id="reviewName"
+                    placeholder="Nama kamu"
+                    required
+                >
+
+                <label for="reviewMessage">Komentar</label>
+                <textarea
+                    id="reviewMessage"
+                    rows="4"
+                    placeholder="Ceritakan pengalamanmu..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn-primary">
+                    Kirim Komentar ↗
+                </button>
+
+            </form>
+
+
+            <div class="review-display">
+
+                <div class="review-title">
+                    <h3>Customer Reviews</h3>
+                    <span>♡</span>
+                </div>
+
+                <div id="reviewList">
+                    <div class="empty-review">
+                        Belum ada komentar.
+                        Jadilah yang pertama memberikan review!
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact-section section" id="contact">
+
+        <div class="section-heading">
+            <span class="eyebrow">COME AND SAY HELLO</span>
+            <h2>Let's Stay <span>Connected.</span></h2>
+            <p>Kami siap menemani momen manismu.</p>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+                <div class="contact-icon">☎</div>
+                <span>WHATSAPP</span>
+                <h3>Let's Talk!</h3>
+                <p>+62 812-6289-5243</p>
+                <a href="https://wa.me/6281262895243" target="_blank">
+                    Chat Us →
+                </a>
+            </div>
+
+
+            <div class="contact-card">
+                <div class="contact-icon">⌖</div>
+                <span>OUR LOCATION</span>
+                <h3>Find Us Here</h3>
+                <p>Lokasi Melt-Roll</p>
+                <a href="https://maps.app.goo.gl/PCrQUGfZ5yxHXYDM9" target="_blank">
+                    Open Google Maps →
+                </a>
+            </div>
+
+
+            <div class="contact-card">
+                <div class="contact-icon">◷</div>
+                <span>OPENING HOURS</span>
+                <h3>We're Open!</h3>
+                <p>Setiap Hari</p>
+                <strong>08.00 – 15.00 WIB</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <img src="assets/logo.jpg" alt="Melt-Roll Logo">
+                <h3>Melt-Roll</h3>
+                <p>Sweetness in Every Roll.</p>
+            </div>
+
+            <div class="footer-message">
+                Made with love, shared with happiness. ♡
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Melt-Roll. All Rights Reserved.</p>
+            <a href="#home">Back to Top ↑</a>
+        </div>
+
+    </footer>
+
+
+    <script src="JS/script.js"></script>
+
+</body>
+</html>
